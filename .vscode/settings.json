@@ -1,5 +1,5 @@
 {
-    "python.pythonPath": "C:\\appl\\anaconda3\\envs\\curvy_env\\python.exe",
+    "python.pythonPath": "C:\\Users\\ruk\\AppData\\Local\\Programs\\Python\\Python37\\python.exe",
     "python.unitTest.unittestEnabled": true,
     "python.unitTest.pyTestEnabled": false,
     "python.unitTest.nosetestsEnabled": false,
