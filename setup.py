@@ -3,7 +3,7 @@ from setuptools import setup
 setup(
     name='curvy',
     version='0.1dev',
-    packages=['curvy',],
+    packages=['curvy', 'curvy-plot', ],
     license='MIT',
     long_description=open('README.md').read(),
     keyswords='smooth curve curves interpolation swap forward prices price python forecast spline electricity gas market maximum smoothness',
@@ -12,6 +12,7 @@ setup(
     install_requires=[
         'numpy',
         'scipy',
-        'pandas'
+        'pandas',
+        'matplotlib'
     ]
 )
