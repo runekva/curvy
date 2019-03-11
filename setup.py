@@ -15,20 +15,3 @@ setup(
         'pandas'
     ]
 )
-
-setup(
-    name='curvy-plot',
-    version='0.1dev',
-    packages=['curvy-plot', 'curvy', ],
-    license='MIT',
-    long_description=open('README.md').read(),
-    keyswords='smooth curve curves interpolation swap forward prices price python forecast spline electricity gas market maximum smoothness',
-    author='Joachim Holwech',
-    author_email='jholw@equinor.com',
-    install_requires=[
-        'numpy',
-        'scipy',
-        'pandas',
-        'matplotlib'
-    ]
-)
